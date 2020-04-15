@@ -5,7 +5,7 @@ incoder.write(u'foo')
 id = incoder.id()
 
 print id.string()
-id2 = c4.Identify(u'bar')
+id2 = c4.identify(u'bar')
 print id2.string()
 
 id3, err = c4.parse(id2.string())
